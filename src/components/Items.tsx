@@ -1,14 +1,14 @@
-import { useSession } from '../contexts/session-context';
-import { useEffect } from 'react';
-import Item from './Item';
-import { Cart } from '../contexts/session';
-import { NavLink, useNavigate } from 'react-router-dom';
+// import { useSession } from '../contexts/session-context';
+// import { useEffect } from 'react';
+// import Item from './Item';
+// import { Cart } from '../contexts/session';
+// import { useNavigate } from 'react-router-dom';
 
 export default function Items() {
-  const {
-    session: { cart },
-  } = useSession();
-  const navigate = useNavigate();
+  // const {
+  //   session: { cart },
+  // } = useSession();
+  // const navigate = useNavigate();
 
   return (
     <div className='active'>

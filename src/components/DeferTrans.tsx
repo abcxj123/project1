@@ -1,4 +1,4 @@
-import { ChangeEvent, useDeferredValue, useState, useTransition } from 'react';
+import { ChangeEvent, useState, useTransition } from 'react';
 
 type List = {
   id: number;

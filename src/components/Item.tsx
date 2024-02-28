@@ -3,11 +3,11 @@ import { Cart } from '../contexts/session';
 import { useSession } from '../contexts/session-context';
 import { useParams } from 'react-router-dom';
 
-const DefaultItem = {
-  id: 0,
-  name: '',
-  price: 0,
-};
+// const DefaultItem = {
+//   id: 0,
+//   name: '',
+//   price: 0,
+// };
 
 type Props = {
   itemId?: number;
@@ -21,6 +21,7 @@ const Item = ({ itemData }: Props) => {
   } = useSession();
 
   const { id } = useParams();
+  console.log(itemData, item, id);
 
   useEffect(() => {
     if (cart) {
